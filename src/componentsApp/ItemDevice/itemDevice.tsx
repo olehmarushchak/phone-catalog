@@ -52,11 +52,13 @@ export const BrandItem: React.FC<Props> = ({ device, discount }) => {
         className="Link__BradItem"
         to={linkNewProduct(pathname, id)}
       >
-        <img
-          className="BrandItem__img"
-          src={`https://olehmarushchak.github.io/react_phone-catalog/${images[0]}`}
-          alt="device-img"
-        />
+        <div className="BrandItem__img__container">
+          <img
+            className="BrandItem__img"
+            src={`https://olehmarushchak.github.io/react_phone-catalog/${images[0]}`}
+            alt="device-img"
+          />
+        </div>
 
         <h4 className={cn('BrandItem__title', { dark: darkThem })}>{name}</h4>
 

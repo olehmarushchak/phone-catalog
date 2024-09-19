@@ -50,6 +50,14 @@
   font-family: 'Mont', sans-serif;
   transition: all 0.3s;
 
+  &__img {
+    &__container {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
   &.dark {
     background-color: $light-gray;
     border-color: $light-gray;
@@ -142,9 +150,7 @@
     position: relative;
 
     &__img {
-      width: 180px;
       height: 202px;
-      margin: 0 10px 10px 10px;
     }
 
     &__title {
@@ -281,7 +287,6 @@
     position: relative;
 
     &__img {
-      width: 168px;
       height: 202px;
     }
 
@@ -420,8 +425,6 @@
 
     &__img {
       height: 129px;
-      width: 120px;
-      margin-left: 15px;
     }
 
     &__title {
