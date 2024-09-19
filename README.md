@@ -1,5 +1,5 @@
 # React Phone Catalog
-[DEMO LINK](https://olehmarushchak.github.io/react_phone-catalog/#/)
+[DEMO LINK](https://olehmarushchak.github.io/phone-catalog/)
 
 Stack use in project: 
 -SCSS
